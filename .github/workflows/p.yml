@@ -1,0 +1,7 @@
+name: P
+on: [push, workflow_dispatch]
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ciao
